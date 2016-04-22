@@ -1,0 +1,118 @@
+
+body {
+  background: #E4E4E4 url("./images/bg.png");
+  margin: margin-bottom: 100px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: #0288D1;
+  font-size: 1.5em;
+}
+
+h2 {
+  margin-bottom: 4px;
+  font-size: 1.17em;
+}
+
+.container {
+  margin-bottom: 15px;
+}
+
+.sidebar {
+  color: #e7e9fd;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.26);
+  border-radius: 3px 3px 0px 0px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.sidebar p {
+  padding: 0 10px 0 10px;
+  margin: 0px;
+}
+
+.sidebar img {
+  width: 100%;
+  height: auto;
+}
+
+.sidebar #email {
+  font-size: .65em;
+}
+
+.sidebar h1 {
+  padding-top: 8px;
+}
+
+.card {
+  background: #FFFFFF;
+  padding: 15px 25px 35px 25px;
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.26);
+  border-radius: 1px;
+}
+
+#social-media-card {
+  padding: 10px 25px 10px 25px;
+  margin: 0px auto 0px;
+  text-align: center;
+}
+
+#nav-card {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.card-header {
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+
+.card {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.right {
+  float: right;
+}
+
+.split {
+  padding-right: 0;
+}
+
+@media (min-width: 700px) and (max-width : 992px) {
+  .split {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 700px ) {
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .sidebar p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .card {
+    margin: 0;
+  }
+
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+
+  .split {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
